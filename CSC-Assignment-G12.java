@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 abstract class Shape {
@@ -124,5 +123,6 @@ public class Main {
         if (choice == 4 || choice == 5) {
             System.out.println("Volume: " + shape.calculateVolume());
         }
+        scanner.close();
     }
 }
